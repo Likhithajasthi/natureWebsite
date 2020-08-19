@@ -31,12 +31,15 @@ body{
     top:40%;
     left:50%;
     transform: translate(-50%,-50%);
+    text-align: center;
 
 }
 .main-primary{
     color: #fff;
     backface-visibility: hidden;
     text-transform: uppercase;
+    margin-bottom: 60px;
+
 }
 
 .primary-header{
@@ -88,7 +91,19 @@ body{
 .btn:visited{
     text-transform: uppercase;
     text-decoration: none;
-    color: white;
-    padding:15px 30px;
+    padding:15px 40px;
+    display: inline-block;
+    border-radius: 100px;
 }
+.btn:hover{
+    transform: translateY(-3px);
+}
+.btn:active{
+    transform: translateY(-1px);
+}
+.btn-white{
+    color: #777;
+    background-color: white;
+}
+
 
